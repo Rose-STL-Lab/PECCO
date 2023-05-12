@@ -11,15 +11,21 @@ To Appear in *Annual Conference on Learning for Dynamics and Control* (L4DC), 20
 
 ## Running the Code
 
-#### Data
+#### Data.
 
 Download raw datasets:
 - [Argoverse Motion Forecasting 1](https://www.argoverse.org/av1.html)
 - [Trajnet++ Update 4.0](https://github.com/vita-epfl/trajnetplusplusdata/releases) 
 
-Then, proceed to preprosses datasets with the notebooks in ```PECCO/datasets```.
+Then, proceed to preprosses datasets with the notebooks in ```PECCO/datasets```. Specific dataset APIs are required for preprocessing, please refer to their respective websites for installation guide.
 
 #### Train model.
+
+Install requirements.
+```
+pip install -r requirements.txt
+```
+
 
 Sample command for Argoverse: 
 
